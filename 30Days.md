@@ -7,7 +7,7 @@ Welcome to `Contoso Real Estate: Deconstruct/Ed` - a series of posts (accompanie
 
 ### 01 | `Deconstructing Contoso Real Estate`
 
-> Learning Objectives
+**Learning Objectives**
 
 By the end of this series you should know how to:
 
@@ -17,7 +17,7 @@ By the end of this series you should know how to:
 4. Find opportunities to extend or improve the sample.
 5. Find resources to help continue your learning journey.
 
-> Pre-requisites
+**Pre-requisites**
 
 <br/>
 <br/>
