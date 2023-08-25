@@ -2,7 +2,12 @@
 
 Welcome to `Contoso Real Estate: Deconstruct/Ed` - a series of posts (accompanied by a planned 4-part Learn Live series) to help you learn about building enterprise-grade applications by deconstructing an open-source reference sample that showcases a **Composable Enterprise** Architecture.
 
-## Learning Objectives
+
+## Kickoff
+
+### 01 | `Deconstructing Contoso Real Estate`
+
+> Learning Objectives
 
 By the end of this series you should know how to:
 
@@ -12,18 +17,98 @@ By the end of this series you should know how to:
 4. Find opportunities to extend or improve the sample.
 5. Find resources to help continue your learning journey.
 
-## Content Series
+> Pre-requisites
 
-The following series of posts provides a guided roadmap to achieve the learning objectives. Explore these in four stages:
- - 🏁 | **Kickoff** = Set the stage for deconstructing-to-learn
- - 1️⃣ | **Define** = Decompose app. Learn what, where, why
- - 2️⃣ | **Develop** = Unpack codebase a scenario at a time
- - 3️⃣ | **DevOps** = Understand dev tooling & e2e workflow
- - 4️⃣ | **Delivery** = Think best practices & design patterns
- - 🏅 | **WrapUp** = Share Learn Collection, Recap key points
+<br/>
+<br/>
 
-_Content will be written up as a series of #30Days posts released daily in September with the intent to reference & use them in the 4-part Learn Live series. With that in mind, content has been defined to resemble a Learn Module (with units and an exercise per unit or at module level)._
+## Week 1️⃣ | Define It - Specification
 
+### 02 | `Article 1`
+
+### 03 | `Article 2`
+
+### 04 | `Article 3`
+
+### 05 | `Article 4`
+
+### 06 | `Article 5`
+
+### 07 | `Article 6`
+
+### 08 | `Article 7`
+
+<br/>
+<br/>
+
+## Week 2️⃣ Develop It - Application
+
+### 09 | `Article 1`
+
+### 10 | `Article 2`
+
+### 11 | `Article 3`
+
+### 12 | `Article 4`
+
+### 13 | `Article 5`
+
+### 14 | `Article 6`
+
+### 15 | `Article 7`
+<br/>
+<br/>
+
+## Week 3️⃣ Develop It - Integration
+
+### 16 | `Article 1`
+
+### 17 | `Article 2`
+
+### 18 | `Article 3`
+
+### 19 | `Article 4`
+
+### 20 | `Article 5`
+
+### 21 | `Article 6`
+
+### 22 | `Article 7`
+<br/>
+<br/>
+
+## Week 4️⃣ Deliver It - Production
+
+### 23 | `Article 1`
+
+### 24 | `Article 2`
+
+### 25 | `Article 3`
+
+### 26 | `Article 4`
+
+### 27 | `Article 5`
+
+### 28 | `Article 6`
+
+### 29 | `Article 7`
+<br/>
+<br/>
+
+## Wrap-up
+
+### 30 | `Continuing The Journey..`
+
+> Learning Resources
+
+> Next Steps
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+> CLEAN THIS UP
 
 | # | Module | Focus | Unit | Status | PubDate |
 |:---|:---|:---|:---|:---|:---|
@@ -62,51 +147,3 @@ _Content will be written up as a series of #30Days posts released daily in Septe
 | 30.|🏅| Wrap-up | Contoso Real Estate Application <br/> Composable Enterprise Architecture <br/> Enterprise-Grade Extensible Sample <br/> End-to-End Developer Experience <br/> Microsoft Learn Collection |⬜️ |
 | | | | | | |
 
-
-## Simple Roadmap
-
-## Week 1: Define
-
-- 1️⃣ | `Application`: What is Contoso Real Estate?
-- 1️⃣ | `Quickstart`: Setup Development Environment
-- 1️⃣ | `Architecture`: Identify Scenarios, Prioritize Them
-- 1️⃣ | `Project`: Understand Structure, Map to Scenarios
-- 1️⃣ | `Services`: Identify Services, Understand Functionality
-- 1️⃣ | `Environment`: Identify Tools, Understand Functionality
-- 1️⃣ | `API`: OpenAPI Specification, Swagger tooling
-
-## Week 2: Develop
-- 2️⃣ | `Scenario 1`: Start with the Blog - for Admins
-- 2️⃣ | `Scenario 2`: Let's Add the Portal - for Guests
-- 2️⃣ | `Scenario 3`: Let's Add Authentication - for New Hires
-- 2️⃣ | `Scenario 4`: Let's Add Payments - for Reservations
-- 2️⃣ | `Scenario 5`: Let's Add Search - with AI Integrations
-- 2️⃣ | `Scenario 6`: Let's Add Events - with Pub/Sub Messaging
-- 2️⃣ | `Scenario 7`:. Let's Add Performance - with Redis Caching
-
-## Week 3: Deploy
-- 3️⃣ | `DevOps-Deploy`: Let's Deploy To Azure - with AZD Tooling
-- 3️⃣ | `DevOps-Deploy`: Let's Explore Deployment - on Azure Portal
-- 3️⃣ | `DevOps-Deploy`: Let's Understand Configuration - with Bicep
-- 3️⃣ | `DevOps-Deploy`: Let's Monitor Deployment - with App Insights
-- 3️⃣ | `DevOps-Testing`: Let's Run E2E Tests - with Playwright Test 
-- 3️⃣ | `DevOps-Testing`: Let's Debug E2E Tests - with Playwright UI Mode
-- 3️⃣ | `DevOps-Testing`: Let's Analyze Tests - with Playwright Reporting
-
-## Week 4: Deliver
-- 4️⃣ | `Deliver-Reliability`: Assess ability to recover from failure
-- 4️⃣ | `Deliver-Security`: Assess ability to protect apps and data
-- 4️⃣ | `Deliver-Costs`: Assess ability to maximize value with minimal cost
-- 4️⃣ | `Deliver-Performance`: Assess ability to adapt to changes in load
-- 4️⃣ | `Deliver-Operation`: Assess ability to keep app running in prod
-- 4️⃣ | `DiveInto-Fundamentals`: [Azure Application Architecture Fundamentals](https://learn.microsoft.com/en-us/azure/architecture/guide/)
-- 4️⃣ | `DiveInto-DesignPatterns`: [Cloud Design Patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/)
-
-
-
-## Resources
-1. [ ] Collection.mslearn
-2. [ ] Glossary.ai
-3. [ ] LearnLive.sessions
-4. [ ] YouTube.shorts
-5. [ ] Instagram.visuals
