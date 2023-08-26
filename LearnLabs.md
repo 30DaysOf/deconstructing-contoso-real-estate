@@ -22,7 +22,7 @@ Contoso is a fictional enterprise that is currently growing its workforce worldw
 
 In this series of lab modules you'll learn how to:
  - **Describe** what a composable enterprise architecture is, and why it has value
- - **Define** a composable architecture with an API-first approach & cloud-native technologies
+ - **Define** a composable architecture (API-first, Cloud-native technologies)
  - **Develop** the solution incrementally, as a series of prioritized scenarios 
  - **Validate** the solution with automated, cross-browser, end-to-end testing
  - **Deploy** the solution to Azure using Infrastructure-as-Code assets and a unified CLI
@@ -54,12 +54,30 @@ Each module should take **max 60 mins** to complete, with each step (unit) withi
 
 | Name | Type | Learning Objectives |
 |:---|:---|:---|
-| **SESSION 1** | 1 |  |
+| **SESSION: SPECIFICATION** ⭐️ | 1 |  |
 | Introduction To Contoso Real Estate (10 min) |  | Understand user scenarios and requirements. **Fork the project.** Understand the repo structure. |
 | Introduction to Composable Enterprise (10 min) | | Understand MACH (API-first, Microservices, Cloud-native, Micro-frontends). **Explore OpenAPI Spec**.|
 | Launch GitHub Codespaces on Forked Sample (30 min) |  | Validate Codespaces setup. Understand Dev Containers. **Preview Contoso Real Estate** app |
-|Understand The Contoso Real Estate Architecture (5 min) |  |  Understand the scenarios and prioritization. Get familiar with the core developer tools. |
+|Understand The Contoso Real Estate Architecture (5 min) |  |  Understand the scenarios and prioritization. Get familiar with **Project File Structure** and mapping to components. |
 | Summary (5 min)| | Recap what we did, why, and next steps. |
-| **SESSION 2** | | |
+| **SESSION: APPLICATION** ⭐️ | 3 | |
+| Introduction to Serverless Compute Resources (5 min) | | Understand Azure Functions, Azure Static Web Apps, Azure Container Apps. **Identify their usage in scenarios.** |
+| Introduction to Data & Storage Resources. (5 min)| | Understand Azure CosmosDB, Azure PostgreSQL, Azure Blob Storage, Strapi CMS.**Identify their usage in scenarios.**  |
+| Implement the Contoso Real Estate API (10 min) | | Understand Azure Functions implementation. Get familiar with Azure Functions Core Tools. **Learn how GitHub Copilot can help speed up API development** |
+| Build the Contoso Blog App Experience (20 min) | | Understand Azure Containers implementation. Understand how CMS works. Explore Next.js frontend. **Learn how sample data is populated for use across Contoso Real Estate apps**. |
+| Build the Contoso Portal App Experience - for guests (20 min) | | Understand Azure Static Web Apps implementation. Get familiar with SWA CLI. **Understand core concepts like Roles, Managed Functions, Data Connections, Auth** in SWA|
+| Summary (5 min) | | Recap what we did, why, and next steps. |
+| **SESSION 3: INTEGRATION** | 3 | |
+| Let's Talk Integrations (5 min) | | |
+| Add Authentication support to Portal App (10 min) | | |
+| Add Save-Listing feature to Portal App (10 min) | | |
+| Add Profile Page feature to Portal App (10 min) | | |
+| Integrate Payments into Portal App (10 min) | | |
+| Add Reservations feature to Portal App (10 min) | | |
+| Summary (5 min) | | |
+| **SESSION 4: PRODUCTION** | 3 | |
 | | | |
-
+| | | |
+| | | |
+| | | |
+| | | |
