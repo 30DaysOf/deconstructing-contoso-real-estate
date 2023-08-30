@@ -9,6 +9,13 @@ npm create astro@latest -- --template starlight
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
+Add [support for sitemaps](https://docs.astro.build/en/guides/integrations-guide/sitemap/#why-astro-sitemap)
+
+```
+$ npx astro add sitemap
+```
+
+
 ## 🚀 Project Structure
 
 Inside of your Astro + Starlight project, you'll see the following folders and files:
