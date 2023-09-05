@@ -1,4 +1,8 @@
-# Deconstructing Contoso Real Estate
+---
+title: Introduction
+description: What were the application requirements? What are the user journeys? What is the architecture design? What are Microservices? What is API-first Design? What is Cloud-Native? What are Micro-frontends? Think Headless.
+---
+
 
 - `Roles:` developer, student, beginner, solutions-architect
 - `Level:` beginner, intermediate
