@@ -24,23 +24,88 @@ export default defineConfig({
       logo: {
         src: './src/assets/contoso-logo.svg'
       },
-      sidebar: [{
-        label: 'Contoso Real Estate Spec',
-        autogenerate: {
-          directory: '1-contoso'
-        }
+      sidebar: [
+        {
+          label: 'M1: Understand Spec',
+          collapsed: false,
+          autogenerate: {
+            directory: '1-contoso'
+          },
+        },
+        {
+          label: 'M2: Setup Codespaces',
+          collapsed: true,
+          autogenerate: {
+            directory: '2-codespaces'
+          }
+        },
+        {
+          label: 'M3: Deploy To Azure',
+          collapsed: true,
+          autogenerate: {
+            directory: '3-deploy'
+          }
+        },
+        {
+          label: 'M4: Unpack The Blog',
+          collapsed: true,
+          autogenerate: {
+            directory: '4-blog'
+          }
+        },
+        {
+          label: 'M5: Unpack The Portal',
+          collapsed: true,
+          autogenerate: {
+            directory: '5-portal'
+          }
+        },
+        {
+          label: 'M6: Add Authentication',
+          collapsed: true,
+          autogenerate: {
+            directory: '6-auth'
+          },
+        },
+        {
+          label: 'M7: Add Payments',
+          collapsed: true,
+          autogenerate: {
+            directory: '7-payments'
+          }
+        },
+        {
+          label: 'M8: Add Test Automation',
+          collapsed: true,
+          autogenerate: {
+            directory: '8-playwright'
+          }
+        },
+        {
+          label: 'M9: View Documentation',
+          collapsed: true,
+          autogenerate: {
+            directory: '9-documentation'
+          }
+        },
+        {
+          label: 'M10: Extend Scenarios',
+          collapsed: true,
+          autogenerate: {
+            directory: '10-extension'
+          }
+        },
         /*
-        items: [
-          // Each item here is one entry in the navigation menu.
-          { label: 'Example Guide', link: '/specification/example/' },
-        ],
+        {
+          label: 'Module Title',
+          collapsed: false,
+          items: [
+            // Each item here is one entry in the navigation menu.
+            { label: 'Unit Title', link: '/module-path/unit-path/' },
+          ],
+        },
         */
-      }, {
-        label: 'Lab Guide: Lessons',
-        autogenerate: {
-          directory: 'lessons'
-        }
-      }]
+      ]
     }),
     sitemap()
   ],

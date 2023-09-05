@@ -1,0 +1,52 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+	"name": "Deconstructing Contoso",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/playwright:v1.37.0-jammy",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"nodeGypDependencies": true,
+			"version": "20"
+		},
+		"ghcr.io/devcontainers-contrib/features/npm-package:1": {
+			"package": "typescript",
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/github-cli:1": {
+			"version": "latest"
+		}
+	},
+	"hostRequirements": {
+		"cpus": 4
+	},
+	"waitFor": "onCreateCommand",
+	"updateContentCommand": "cd 30Days; npm install",
+	"postCreateCommand": "bash .devcontainer/post-create.sh",
+	"postAttachCommand": {
+		"server": "cd 30Days; npm run dev"
+	},
+	"customizations": {
+		"codespaces": {
+			"openFiles": [
+				"30Days/README.md"
+			]
+		},
+		"vscode": {
+			"extensions": [
+				"ms-playwright.playwright",
+				"astro-build.astro-vscode"
+			]
+		}
+	},
+	"portsAttributes": {
+		"3000": {
+			"label": "Next.js Blog App",
+			"onAutoForward": "openPreview"
+		}
+	},
+	"forwardPorts": [
+		3000
+	]
+}
+}
