@@ -25,9 +25,9 @@ export default defineConfig({
         src: './src/assets/contoso-logo.svg'
       },
       sidebar: [{
-        label: 'Contoso Real Estate',
+        label: 'Contoso Real Estate Spec',
         autogenerate: {
-          directory: 'contoso'
+          directory: '1-contoso'
         }
         /*
         items: [
@@ -44,11 +44,6 @@ export default defineConfig({
     }),
     sitemap()
   ],
-  
-  // Experimental View Transitions: https://docs.astro.build/en/guides/view-transitions/
-  experimental: {
-    viewTransitions: true
-  },
 
   // Process images with sharp: https://docs.astro.build/en/guides/assets/#using-sharp
   image: {

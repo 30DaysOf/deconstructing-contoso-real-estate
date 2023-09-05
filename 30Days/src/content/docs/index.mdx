@@ -8,7 +8,7 @@ hero:
     file: ../../assets/contoso-logo.svg
   actions:
     - text: Explore 30DaysOf Series
-      link: ./contoso/1-about/
+      link: ./1-contoso/1-about/
       icon: open-book
       variant: primary
     - text: Visit Contoso Real Estate Repo
@@ -18,24 +18,45 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Learn Live Sessions
+## Learning Path
 
-<CardGrid stagger>
-	<Card title="S1 | Define: App Architecture" icon="list-format">
-		Define Composable Architecture. Identify Prioritized Scenarios. Define API Specification. Validate Development Environment.
-		<br/> **👉🏽 | Sep 14, 2023**: _[Learn Live Session #1](https://aka.ms/contoso-real-estate/learn-live)._
+<Card title="Learn Live: Sep-Oct 2023" icon="star">
+	Join us for live discussions and instructor-led exploration of the repository. Let's Deconstruct Contoso Real Estate in 4 1-hour sessions!
+	<br/> **👉🏽 | Sep 14, 2023**: _[Learn Live Session #1](https://aka.ms/contoso-real-estate/learn-live)._
+	<br/>**👉🏽 | Sep 21, 2023**: _[Learn Live Session #2](https://aka.ms/contoso-real-estate/learn-live)._
+	<br/>**👉🏽 | Sep 28, 2023**: _[Learn Live Session #3](https://aka.ms/contoso-real-estate/learn-live)._
+	<br/>**👉🏽 | Oct 05, 2023**: _[Learn Live Session #4](https://aka.ms/contoso-real-estate/learn-live)._
+</Card>
+<CardGrid>
+	<Card title="M1 | Understand the Specification" icon="open-book">
+		What were the application requirements? What are the user journeys? What is the architecture design? What are Microservices? What is API-first Design? What is Cloud-Native? What are Micro-frontends? Think Headless.
 	</Card>
-	<Card title="S2 | Develop: Micro-Frontends" icon="laptop">
-		Define Micro-frontends & API-first. Build Blog app and Portal app experiences for guest users. Validate With Local Preview.
-		<br/>**👉🏽 | Sep 21, 2023**: _[Learn Live Session #2](https://aka.ms/contoso-real-estate/learn-live)._
+	<Card title="M2 | Setup the Dev Environment" icon="laptop">
+		Understand Dev Containers and GitHub Codespaces. Fork the repo, build Codespaces. Complete the application startup. Validate local preview of e2e experience.
 	</Card>
-	<Card title="S3 | Develop: Backend Integrations" icon="puzzle">
-		Define Microservices & cloud-native.
-		Integrate authentication feature. Integrate payments API. Integrate search capability.
-		<br/>**👉🏽 | Sep 28, 2023**: _[Learn Live Session #3](https://aka.ms/contoso-real-estate/learn-live)._
+	<Card title="M3 | Provision & Deploy to Azure" icon="rocket">
+		Understand Infrasrtucture as Code. What is ARM? What is Bicep? Understand Azure Developer CLI tooling. Use `azd` to deploy to Azure.
 	</Card>
-	<Card title="S4 | Deliver: End-to-End Solution" icon="rocket">
-		Define End-to-End Testing & Deployment. Understand Playwright Tools & API. Understand Azure Developer CLI.
-		<br/>**👉🏽 | Oct 05, 2023**: _[Learn Live Session #4](https://aka.ms/contoso-real-estate/learn-live)._
+	<Card title="M4 | Unpack Blog Application (S1) " icon="open-book">
+		What is the core user journey? What technologies are we using (and why)? What are the data and 3rd party dependencies? Exercise: Modify & Rebuild
+	</Card>
+	<Card title="M5 | Unpack Portal Application (S2)" icon="laptop">
+		What is the core user journey? What technologies are we using (and why)? What are the data and 3rd party dependencies? Exercise: Modify & Rebuild
+	</Card>
+	<Card title="M6 | Add Authentication (S3)" icon="laptop">
+		What is the core user journey? What technologies are we using (and why)? What are the data and 3rd party dependencies? Exercise: Modify & Rebuild
+	</Card>
+	<Card title="M7 | Add Payments (S4)" icon="laptop">
+		What is the core user journey? What technologies are we using (and why)? What are the data and 3rd party dependencies? Exercise: Modify & Rebuild
+	</Card>
+	<Card title="M8 | Add Test Automation (S5)" icon="rocket">
+		What is Test Automation? Why do we need it? What are we testing? What is Playwright - and why use it? Configure Playwright. Author Tests. Execute Tests. Automate In CI/CD.
+ 	</Card>
+	<Card title="M9 | View Documentation (S6)" icon="open-book">
+		What is the developer guide? How can I build and preview it? How is it organized? How can I extend or modify the documentation? 🤖 | How can GitHub Copilot help?
+	</Card>
+	<Card title="M10 | Extend Scenarios (S7+)" icon="star">
+		What makes the architecture extensible? How do I begin to specify a new _scenario_? Where do I scaffold the _implementation_? What dependencies should I know?
 	</Card>
 </CardGrid>
+

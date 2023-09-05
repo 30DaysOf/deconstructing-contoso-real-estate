@@ -1,4 +1,7 @@
-# Deconstructing Contoso Real Estate
+---
+title: 1. About This Series
+description: What is Contoso Real Estate App - Deconstructed? Who is it for and what do we need to get started?
+---
 
 ## Learning Journey
 
@@ -28,6 +31,8 @@ You just got hired to join the Contoso Organization to work on an exciting new p
 Your team wants you to get up to speed quickly on the reference sample, so you can start contributing to new feature development, bug fixes, and other enhancements to the repo. You have access to the open-soure repository and want a structured way to _deconstruct_ the codebase to understand it.
 
 ## Learning Objectives
+
+Note that a single module should have 2-3 learning objectives at most. This is more about understanding the high-level learning objectives for the entire path or Learn Lab series.
 
 1. **DEFINE | Explore the Contoso Real Estate application spec**
     1. Understand the Contoso Real Estate user journeys
@@ -66,3 +71,4 @@ Your team wants you to get up to speed quickly on the reference sample, so you c
 1. M10: (Extend) Search, Performance, Events, AI
 
 Each module should take under an hour to complete. It can have up to 8 units (with introduction, summary) and each unit should ideally take 5 mins (or max up to 10 mins).
+
