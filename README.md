@@ -50,4 +50,47 @@ Your team wants you to get up to speed quickly on the reference sample, so you c
 - M9 | View Documentation (developer guide)
 - M10 | Extend Scenarios (S5, S6, S7 ...)
 
+## Guidance
+
+The labs are loosely modeled after _guided project_ explorations with content organized into "concept+exercise" pairs. Learn something about the solution - then take some hands-on action to reinforce that learning or understand how to put what you learned into practice.
+
+
+## Complete Challenges
+Here is a small subset of the _challenges_ you will complete along the way:
+
+ 1. **Fork the open-source sample** to your own GitHub profile.
+ 1. **Setup your development environment** using GitHub Codespaces.
+ 1. **Build & Preview the application** using GitHub Codespaces with npm.
+ 1. **Analyze the Architecture diagram** and identify the prioritized scenarios.
+ 1. **Analyze the OpenAPI specification** and learn to implement a serverless API.
+ 1. **Analyze the Project Codebase** and map prioritized scenarios to packages.
+ 1. **Deploy the Solution to Azure** using Azure Developer CLI.
+ 1. **Build & Run End-to-End Tests** using Playwright.
+ 1. **Automate the CI/CD Workflows** using GitHub Actions and Azure DevOps.
+ 1. **Optimize for Costs & Performance** using Azure Monitor and Dashboard.
+
+## Explore Iteratively
+
+Some challenges are actually a collection of _mini-challenges_ that iteratively skill you up in achieving the broader objective. For instance, the _Analyze Project Codebase_ is a series of smaller challenges, each focused on a prioritized scenario such as:
+
+ 1. **Build a Blog** using Next.js with Strapi, Azure Container Apps & more.
+ 1. **Add the Portal** using Angular with Azure Static Web Apps & Functions.
+ 1. **Add Authentication** using Azure Static Web Apps & Azure CosmosDB.
+ 1. **Integrate Payments** using Azure Container Apps, Stripe API & API Management.
+ 1. **Integrate Search** using GraphQL API (now) & Azure Open AI (next)
+
+## Transfer Knowledge
+
+Practicing the tasks will help you build your knowledge of enterprise architectures and end-to-end development, and build familiarity with the Contoso Real Estate codebase. It will also help you _transfer that knowledge_ in three actionable ways:
+
+ - **Apply Learnings & Best Practices** to build your own real-world projects.
+ - **Make Open-Source Contributions** to this sample, or other like it.
+ - **Explain Solution Architectures & Tradeoffs** to your team or other learners.
+
+## Time Commitment
+ 1. Each challenge should take < 5 mins to complete (unless stated otherwise).
+ 1. Challenges should build on each other (so complete them in order)
+ 1. You can pause & resume activities (using Codespaces to save state)
+
+
 ---

@@ -1,6 +1,6 @@
 ## Objective
 
-Release the Learn Labs modules as blog posts over a period of 30 days or so, to drive awareness and engagement with the open-source implementation and Learn Live sessions. Tentative outline below. Target October or November?
+Release the Learn Labs modules as blog posts over a period of 30 days or so, to drive awareness and engagement with the open-source implementation and Learn Live sessions. Tentative outline below. Target October or November? 
 
 ---
 

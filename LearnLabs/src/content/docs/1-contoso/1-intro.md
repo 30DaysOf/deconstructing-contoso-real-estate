@@ -3,6 +3,11 @@ title: Introduction
 description: What were the application requirements? What are the user journeys? What is the architecture design? What are Microservices? What is API-first Design? What is Cloud-Native? What are Micro-frontends? Think Headless.
 ---
 
+:::tip[Get Ready For Take Off!]
+- ᛘ - Fork the reference sample at [Azure-Samples/contoso-real-estate](https://aka.ms/contoso-real-estate/github).  
+- ⭐️ - Star the repo if you found it helpful, and spread the word.
+- 📬 - Post questions or feedback using the right [Issues Template](https://github.com/Azure-Samples/contoso-real-estate/issues/new/choose)
+:::
 
 - `Roles:` developer, student, beginner, solutions-architect
 - `Level:` beginner, intermediate

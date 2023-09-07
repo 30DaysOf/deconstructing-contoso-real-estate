@@ -1,9 +1,35 @@
 ---
-title: 4. Architecture Design
-description: What is a Composable Enterprise Architecture? How do we map the Contoso Real Estate application requirements to this architecture pattern?
+title: Prioritized Scenarios
+description: What are the "Composable Blocks" of our architecture? Why did we prioritize the development order this way?
 ---
 
-## Composable Enterprise
+## What are Prioritized Scenarios?
+
+## Breaking down the Architecture
+
+### S1: Build a Blog App
+
+### S2: Add a Portal App
+
+### S3: Add Authentication
+
+### S4: Add Payments
+
+### S5: Add Search (AI)
+
+### S6: Add Caching (Perf)
+
+### S7: Add Pub/Sub (Events)
+
+## Cross-Cutting Considerations
+
+### 1. Cost Optimization
+
+### 2. Application Insights
+
+### 3. End-to-End Testing
+
+### 4. Deployment Pipelines
 
 The **Composable Enterprise** design pattern captures [a growing trend](https://www.forbes.com/sites/forbesbusinesscouncil/2023/01/18/composable-architecture-101-how-to-make-the-transition-in-your-business/?sh=283f4a5754ee) in solutions that _assemble a system from loosely coupled components_ so they can _adapt and change rapidly to respond to market needs_. 
 

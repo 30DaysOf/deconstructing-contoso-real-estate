@@ -1,7 +1,25 @@
 ---
-title: 3. App Requirements
-description: What is Contoso Real Estate? What are the application requirements? How do we begin our design process?
+title: Reference Architecture
+description: What is our design process? What is a Composable Architecture and why did we choose it?
 ---
+
+## What is a Composable Architecture?
+
+## Why did we use a Composable Architecture?
+
+## Elements of a Composable Architecture
+
+### Microservices (back-end)
+
+### Headless (front-end)
+
+### Cloud-native Technologies
+
+### API-First (design)
+
+## Our Reference Architecture
+
+
 
 Learn about the core requirements for the Contoso Real Estate application, identify key user roles, and understand why we use a cloud-native architecture for our solution.
 
