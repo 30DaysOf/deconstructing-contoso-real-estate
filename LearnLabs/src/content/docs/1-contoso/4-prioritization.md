@@ -31,6 +31,8 @@ description: What are the "Composable Blocks" of our architecture? Why did we pr
 
 ### 4. Deployment Pipelines
 
+
+
 The **Composable Enterprise** design pattern captures [a growing trend](https://www.forbes.com/sites/forbesbusinesscouncil/2023/01/18/composable-architecture-101-how-to-make-the-transition-in-your-business/?sh=283f4a5754ee) in solutions that _assemble a system from loosely coupled components_ so they can _adapt and change rapidly to respond to market needs_. 
 
 From a concrete technology perspective, it is best reflected by the [MACH Architecture](https://macharchitecture.com/) which builds on Cloud-native architecture principles with added focus on:

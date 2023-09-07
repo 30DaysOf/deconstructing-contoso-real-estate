@@ -21,15 +21,15 @@
 		"cpus": 4
 	},
 	"waitFor": "onCreateCommand",
-	"updateContentCommand": "cd 30Days; npm install",
+	"updateContentCommand": "cd LearnLabs; npm install",
 	"postCreateCommand": "bash .devcontainer/post-create.sh",
 	"postAttachCommand": {
-		"server": "cd 30Days; npm run dev"
+		"server": "cd LearnLabs; npm run dev"
 	},
 	"customizations": {
 		"codespaces": {
 			"openFiles": [
-				"30Days/README.md"
+				"LearnLabs/README.md"
 			]
 		},
 		"vscode": {
@@ -40,13 +40,13 @@
 		}
 	},
 	"portsAttributes": {
-		"3000": {
-			"label": "Next.js Blog App",
+		"4321": {
+			"label": "Astro Dev Preview",
 			"onAutoForward": "openPreview"
 		}
 	},
 	"forwardPorts": [
-		3000
+		4321
 	]
 }
 }

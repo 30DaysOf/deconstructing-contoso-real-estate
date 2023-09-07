@@ -3,6 +3,7 @@ title: App Specification
 description: What were the application requirements? 
 ---
 
+You just got hired by Contoso Organization to maintain their _Contoso Real Estate_ reference implementation. In this module, 
 
 ## What is Contoso Real Estate?
 
