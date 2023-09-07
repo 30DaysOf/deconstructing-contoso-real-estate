@@ -1,4 +1,4 @@
 ---
-title: Concept
+title: Concept - Micro-frontends
 description: Concept
 ---

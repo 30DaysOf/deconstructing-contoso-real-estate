@@ -1,4 +1,4 @@
 ---
-title: Concept
+title: Concept - Managed Auth
 description: Concept
 ---
