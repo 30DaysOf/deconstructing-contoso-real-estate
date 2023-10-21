@@ -1,35 +1,24 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
-	"name": "Deconstructing Contoso",
+	"name": "Deconstructing Contoso Real Estate",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/playwright:v1.37.0-jammy",
-	"features": {
-		"ghcr.io/devcontainers/features/node:1": {
-			"nodeGypDependencies": true,
-			"version": "20"
-		},
-		"ghcr.io/devcontainers-contrib/features/npm-package:1": {
-			"package": "typescript",
-			"version": "latest"
-		},
-		"ghcr.io/devcontainers/features/github-cli:1": {
-			"version": "latest"
-		}
-	},
+
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"hostRequirements": {
-		"cpus": 4
+	  "cpus": 4
 	},
+	
 	"waitFor": "onCreateCommand",
-	"updateContentCommand": "cd LearnLabs; npm install",
+	"updateContentCommand": "cd learn-labs; npm install",
 	"postCreateCommand": "bash .devcontainer/post-create.sh",
 	"postAttachCommand": {
-		"server": "cd LearnLabs; npm run dev"
+		"server": "cd learn-labs; npm run dev"
 	},
 	"customizations": {
 		"codespaces": {
 			"openFiles": [
-				"LearnLabs/README.md"
+				"learn-labs/README.md"
 			]
 		},
 		"vscode": {

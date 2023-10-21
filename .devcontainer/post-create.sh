@@ -1,0 +1,1 @@
+# Use this to install other dependencies like Playwright later if needed
