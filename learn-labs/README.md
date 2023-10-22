@@ -1,17 +1,23 @@
-# Starlight Starter Kit: Basics
+# Website: Under the Hood
 
-```
+This website is built with [Astro/Starlight](https://starlight.astro.build/) - a documentation-focused static site generator that handles site navigation, search, i18, SEO and more. Here are [some reasons why Astro is a good choice](https://docs.astro.build/en/concepts/why-astro/) for static sites. Starlight also has [the lowest environmental impact](https://starlight.astro.build/environmental-impact/) compared to others.
+
+
+## 1. Site Setup 🎬
+
+The site was setup using the following command. This starts a wizard that walks you through the process, then scaffolds the basic site.
+
+```bash
 npm create astro@latest -- --template starlight
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
+Astro and Starlight are evolving fast. Let's keep the dependency updated by running this command periodically to update `package.json`.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+```bash
+npm install @astrojs/starlight@latest --save
+```
 
-## 🚀 Project Structure
-
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+The default project has a structure like this. 
 
 ```
 .
@@ -27,15 +33,15 @@ Inside of your Astro + Starlight project, you'll see the following folders and f
 └── tsconfig.json
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+ - **File-based Routing** - Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name. _Example: the "src/content/docs/about.md" file contents are served at the "/about" route_
+ - **Accessing Images** - Static assets like images [can be stored in two places](https://docs.astro.build/en/guides/images/) - `src/` or `/public`. The first are optimized by Astro before serving, while the latter are served as is. In Starlight: 
+    - Add your assets into `src/assets` and reference them in Markdown using _relative_ links.
+    - Add pre-optimized static assets like favicons in `public/` and reference them using _routes_ (maps to `/<asset-name>`)
+ 
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+## 2. Site Commands 
 
-Static assets, like favicons, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
+Run these from the root of the site, from any terminal.
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
@@ -45,6 +51,8 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm install @astrojs/starlight@latest --save` |  Update to latest Astro / Starlight release |
+| | |
 
 ## 👀 Want to learn more?
 

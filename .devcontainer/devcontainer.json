@@ -24,7 +24,8 @@
 		"vscode": {
 			"extensions": [
 				"ms-playwright.playwright",
-				"astro-build.astro-vscode"
+				"astro-build.astro-vscode",
+				"GitHub.copilot-chat"
 			]
 		}
 	},

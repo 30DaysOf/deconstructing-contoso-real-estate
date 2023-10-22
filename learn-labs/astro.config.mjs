@@ -10,8 +10,8 @@ export default defineConfig({
 
 	integrations: [
 		starlight({
-			title: 'Deconstructed',
-			description: 'Learn to build & deploy an enterprise-grade composable architecture on Azure - by deconstructing an open-source reference sample.',
+			title: 'Deconstruct & Learn',
+			description: 'Want to build enterprise-grade solutions? Learn to tear one down and transfer the knowledge!',
 			tableOfContents: {
 				minHeadingLevel: 2,
 				maxHeadingLevel: 3
@@ -23,6 +23,14 @@ export default defineConfig({
 				src: './src/assets/img/contoso-logo.svg'
 			},
 			sidebar: [
+				{
+					label: 'About This Project',
+					collapsed: true,
+					autogenerate: {
+						directory: '1-introduction'
+					},
+				},
+				/*
 				{
 					label: 'M1: Understand Specification',
 					collapsed: true,

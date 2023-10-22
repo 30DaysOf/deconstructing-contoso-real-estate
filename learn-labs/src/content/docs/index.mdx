@@ -1,62 +1,53 @@
 ---
-title: Deconstruct Contoso Real Estate
-description: Learn to build enterprise-grade solutions on Azure by deconstructing an open-source reference sample!
+title: Deconstructing The Contoso Real Estate App
+description: Want to build an enterprise-grade solution on Azure? Deconstruct our reference sample.
 template: splash
 hero:
-  tagline: Learn to build an enterprise-grade application by tearing down an open-source reference implementation for a real-world scenario!
+  tagline: Want to build an enterprise-grade solution on Azure? Start by tearing one down! Deconstruct our open-source reference implementation!
   image:
     file: ../../assets/img/contoso-logo.svg
   actions:
-    - text: Explore Learn Labs
-      link: ./1-contoso/1-intro/
+    - text: Explore The Labs
+      link: ./1-introduction/1-motivation/
       icon: open-book
       variant: primary
-    - text: Visit Contoso Real Estate Repo
+    - text: Explore the Sample
       link: https://aka.ms/contoso-real-estate/github
       icon: github
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Learning Path
+## Learn Live: Video Series 🆕
 
-<Card title="Learn Live: Sep-Oct 2023" icon="star">
-	Join us for live discussions and instructor-led exploration of the repository. Let's Deconstruct Contoso Real Estate in 4 1-hour sessions!
-	<br/> **👉🏽 | Sep 14, 2023**: _[Learn Live Session #1](https://aka.ms/contoso-real-estate/learn-live)._ - covers M1 and M2.
-	<br/>**👉🏽 | Sep 21, 2023**: _[Learn Live Session #2](https://aka.ms/contoso-real-estate/learn-live)._ - covers M3 and M4.
-	<br/>**👉🏽 | Sep 28, 2023**: _[Learn Live Session #3](https://aka.ms/contoso-real-estate/learn-live)._ - covers M5 and M6.
-	<br/>**👉🏽 | Oct 05, 2023**: _[Learn Live Session #4](https://aka.ms/contoso-real-estate/learn-live)._ - covers M7 and M8.
-</Card>
+In Sept 2023, we ran a 4-part [Learn Live: Serverless](https://learn.microsoft.com/shows/learn-live/?terms=contoso%20real%20estate??WT.mc_id=javascript-99907-ninarasi) series for the [#BuildIntelligentApps](https://aka.ms/FallForIA) initiative. The _Learn Live_ approach focuses on instructor-led livestreams that feature hands-on exploration of relevant training resources. In our case, we used the 4 episodes to create nearly 6 hours of video content that walks you through key aspects of the Contoso Real Estate application from definition to development, testing and deployment.
+
 <CardGrid>
-	<Card title="M1 | Understand the Specification" icon="open-book">
-		What were the application requirements? What are the user journeys? What is the architecture design? What are Microservices? What is API-first Design? What is Cloud-Native? What are Micro-frontends? Think Headless. <br/> 👉🏽 | [View Module](./1-contoso/1-intro/)
+	<Card title="Ep 1 | Building Composable Cloud-Native Solutions on Azure" icon="laptop">
+		Get started with _Deconstructing Contoso Real Estate_. Learn about the Contoso Real Estate sample, fork the repo, launch GitHub Codespaces - and build/preview the application to validate environment. <br/>![Banner for Episode 1 of Learn Live Series](https://azure.github.io/Cloud-Native/img/fallforia/learn-live-contoso.jpg) <br/> 👉🏽 | [**Watch On-Demand**](https://aka.ms/contoso-real-estate/learn-live/Ep1?WT.mc_id=javascript-99907-ninarasi)
 	</Card>
-	<Card title="M2 | Setup the Dev Environment" icon="laptop">
-		Understand Dev Containers and GitHub Codespaces. Fork the repo, build Codespaces. Complete the application startup. Validate local preview of e2e experience. <br/> 👉🏽 | [View Module](./2-codespaces/1-intro/)
+	<Card title="Ep 2 | Building Micro-frontends with API-first design thinking" icon="laptop">
+		Deconstruct the Portal Application experience in Contoso Real Estate. Learn about micro-frontends and API-first design - and why they are critical for composable enterprise architectures. Deconstruct the portal app, blog app, and serverless API. <br/>![Banner for Episode 2 of Learn Live Series](https://azure.github.io/Cloud-Native/img/fallforia/learn-live-portal-app.jpg) <br/> 👉🏽 | [**Watch On-Demand**](https://aka.ms/contoso-real-estate/learn-live/Ep2?WT.mc_id=javascript-99907-ninarasi)
 	</Card>
-	<Card title="M3 | Unpack Blog Application (S1) " icon="open-book">
-		What is the core user journey? What technologies are we using (and why)? What are the data and 3rd party dependencies? Exercise: Modify & Rebuild <br/> 👉🏽 | [View Module](./3-blog/1-intro/)
+	<Card title="Ep 3 | Integrate 3rd Party Payments & Authentication Features" icon="laptop">
+		Deconstruct the Serverless backend integrations for Contoso Real Estate. Learn about managed authentication with user profiles support. Integrate 3rd party payments and explore options for search and storage extensions.
+		<br/>![Banner for Episode 3 of Learn Live Series](https://azure.github.io/Cloud-Native/img/fallforia/learn-live-third-party-payments.jpg) <br/> 👉🏽 | [**Watch On-Demand**](https://aka.ms/contoso-real-estate/learn-live/Ep3?WT.mc_id=javascript-99907-ninarasi)
 	</Card>
-	<Card title="M4 | Unpack Portal Application (S2)" icon="laptop">
-		What is the core user journey? What technologies are we using (and why)? What are the data and 3rd party dependencies? Exercise: Modify & Rebuild <br/> 👉🏽 | [View Module](./4-portal/1-intro/)
-	</Card>
-	<Card title="M5 | Add Authentication (S3)" icon="laptop">
-		What is the core user journey? What technologies are we using (and why)? What are the data and 3rd party dependencies? Exercise: Modify & Rebuild <br/> 👉🏽 | [View Module](./5-auth/1-intro/)
-	</Card>
-	<Card title="M6 | Add Payments (S4)" icon="laptop">
-		What is the core user journey? What technologies are we using (and why)? What are the data and 3rd party dependencies? Exercise: Modify & Rebuild <br/> 👉🏽 | [View Module](./6-payments/1-intro/)
-	</Card>
-	<Card title="M7 | Provision & Deploy to Azure" icon="rocket">
-		Understand Infrasrtucture as Code. What is ARM? What is Bicep? Understand Azure Developer CLI tooling. Use `azd` to deploy to Azure. <br/> 👉🏽 | [View Module](./7-deploy/1-intro/)
-	</Card>
-	<Card title="M8 | Add Test Automation" icon="rocket">
-		What is Test Automation? Why do we need it? What are we testing? What is Playwright - and why use it? Configure Playwright. Author Tests. Execute Tests. Automate In CI/CD. <br/> 👉🏽 | [View Module](./8-playwright/1-intro/)
- 	</Card>
-	<Card title="M9 | View Documentation" icon="open-book">
-		What is the developer guide? How can I build and preview it? How is it organized? How can I extend or modify the documentation? 🤖 | How can GitHub Copilot help? <br/> 👉🏽 | [View Module](./9-documentation/1-intro/)
-	</Card>
-	<Card title="M10 | Extend Scenarios (S5+)" icon="star">
-		What makes the architecture extensible? How do I begin to specify a new _scenario_? Where do I scaffold the _implementation_? What dependencies should I know? <br/> 👉🏽 | [View Module](./10-extension/1-intro/)
+	<Card title="Ep 4 | Deploy with Azure Developer CLI · E2E Testing With Playwright" icon="laptop">
+		Understand concepts like test automation and infrastructure-as-code. Learn to build reliable end-to-end tests with Playwright. Learn to provision and deploy multi-scenario applications to Azure with Azure Developer CLI. <br/>![Banner for Episode 4 of Learn Live Series](https://azure.github.io/Cloud-Native/img/fallforia/learn-live-azure-developer.png) <br/> 👉🏽 | [**Watch On-Demand**](https://aka.ms/contoso-real-estate/learn-live/Ep4?WT.mc_id=javascript-99907-ninarasi)
 	</Card>
 </CardGrid>
 
+## Learn Labs: Self-Guided 🚧
+
+Keep an eye on this site for a hands-on [Learn Labs](./1-introduction/1-motivation/) content based on the Learn Live series. This will allow you to walk through some of these concepts interactively, and cultivate your own intuition on both the tools and the workflows required to build enterprise-grade applications. We'll model labs on the [Learning Path](https://learn.microsoft.com/training/paths/azure-well-architected-framework/?WT.mc_id=javascript-99907-ninarasi) format adopted in Microsoft.
+- **Learning Path** 👉🏽 Has 2-12 modules that provide an end-to-end learning journey
+- **Each Module** 👉🏽 Has 2-12 units that teach you a core concept in under an hour.
+- **Each Unit** 👉🏽 Has an activity (learn a concept, do an exercise) you can complete in < 5 mins.
+
+Find this useful? Here are 3 actions you can take:
+ - [Watch the repo](https://github.com/30DaysOf/deconstructing-contoso-real-estate) for updates.
+ - [Star the repo](https://github.com/30DaysOf/deconstructing-contoso-real-estate) if you find it useful.
+ - [Create an issue](https://github.com/30DaysOf/deconstructing-contoso-real-estate/issues/new) to provide feedback.
+
+👉🏽 | [**Bookmark the Collection**](https://aka.ms/fallforIA/collection/?WT.mc_id=javascript-99907-ninarasi) 
