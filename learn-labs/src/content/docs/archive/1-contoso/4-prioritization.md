@@ -50,14 +50,14 @@ With this architecture pattern, we now _rely on cloud-native automation and CI/C
 
 The [**Contoso Real Estate**](https://aka.ms/contoso-real-estate/github) _sample_ implements the Composable Enterprise pattern to deliver an enterprise-grade solution on Azure, using _this reference architecture_ built with cloud-native technologies and best-in-class developer tools.
 
-![Contoso Real Estate Reference architecture](./../../../assets/img/contoso-real-estate-arch.png)
+![Contoso Real Estate Reference architecture](./../../../../assets/img/contoso-real-estate-arch.png)
 
 
 ## Prioritized Scenarios
 
 That looks fairly complex to build at one shot. _Composability_ is achieved by breaking this up into a series of _prioritized scenarios_ that build upon each other iteratively. The base (scenario 1) then helps establish a project structure and development environment in a manner that allows multiple teams to collaborate on the solution _consistently_.
 
-![Contoso Real Estate Reference architecture](./../../../assets/img/contoso-prioritized-scenarios.png)
+![Contoso Real Estate Reference architecture](./../../../../assets/img/contoso-prioritized-scenarios.png)
 
 The figure below shows the _reference architecture_ for the sample implementation, showcasing the core Azure services, developer tools, and 3rd party integrations, implemented to deliver the desired user experience.
 
